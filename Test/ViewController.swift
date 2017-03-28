@@ -15,6 +15,7 @@ UINavigationControllerDelegate {
     @IBOutlet weak var nameTextFeild: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
     
     override func viewDidLoad() {
@@ -76,9 +77,6 @@ UINavigationControllerDelegate {
         
     }
     
-    @IBAction func setDefaultLabelText(_ sender: UIButton) {
-        mealNameLabel.text = "Default Text"
-    }
 
 }
 
