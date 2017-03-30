@@ -15,6 +15,7 @@
 		02A807D91E7082B800744B40 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A807D81E7082B800744B40 /* TestTests.swift */; };
 		02A807E41E7082B800744B40 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A807E31E7082B800744B40 /* TestUITests.swift */; };
 		02A807F21E7E213C00744B40 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A807F11E7E213C00744B40 /* RatingControl.swift */; };
+		02AA4CD21E8B28CF008596BC /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA4CD11E8B28CF008596BC /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		02A807E31E7082B800744B40 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		02A807E51E7082B800744B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A807F11E7E213C00744B40 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		02AA4CD11E8B28CF008596BC /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				02A807C31E7082B700744B40 /* AppDelegate.swift */,
 				02A807C51E7082B700744B40 /* ViewController.swift */,
+				02AA4CD11E8B28CF008596BC /* Meal.swift */,
 				02A807F11E7E213C00744B40 /* RatingControl.swift */,
 				02A807C71E7082B700744B40 /* Main.storyboard */,
 				02A807CA1E7082B700744B40 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02AA4CD21E8B28CF008596BC /* Meal.swift in Sources */,
 				02A807C61E7082B700744B40 /* ViewController.swift in Sources */,
 				02A807F21E7E213C00744B40 /* RatingControl.swift in Sources */,
 				02A807C41E7082B700744B40 /* AppDelegate.swift in Sources */,
@@ -516,6 +520,7 @@
 				02A807EA1E7082B800744B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A807EB1E7082B800744B40 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				02A807ED1E7082B800744B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02A807EE1E7082B800744B40 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				02A807F01E7082B800744B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
